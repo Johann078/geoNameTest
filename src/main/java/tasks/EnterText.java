@@ -30,10 +30,6 @@ public class EnterText implements Task {
         actor.attemptsTo(Enter.theValue(data.get("latitude")).into(TXT_LAT));
         actor.attemptsTo(Enter.theValue(data.get("longitude")).into(TXT_LNG));
         actor.attemptsTo(Click.on(BTN_SEND));
-        try {
-            Thread.sleep(3000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+
     }
 }

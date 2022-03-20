@@ -24,6 +24,11 @@ public class QuestionCountry implements Question<Boolean> {
     public Boolean answeredBy(Actor actor) {
 
         if(data.get("errorMessage").contains("False")){
+            try {
+                Thread.sleep(2000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
             return TXTBOX_COUNTRY.resolveFor(actor).getText().contains(data.get("message"));
         } else {
             return TOAST.resolveFor(actor).getText().contains(data.get("message"));
