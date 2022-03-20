@@ -31,6 +31,11 @@ public class QuestionCountry implements Question<Boolean> {
             }
             return TXTBOX_COUNTRY.resolveFor(actor).getText().contains(data.get("message"));
         } else {
+            try {
+                Thread.sleep(1000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
             return TOAST.resolveFor(actor).getText().contains(data.get("message"));
         }
 
