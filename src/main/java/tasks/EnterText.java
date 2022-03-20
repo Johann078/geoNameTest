@@ -1,10 +1,12 @@
 package tasks;
 
-import lombok.AllArgsConstructor;
+
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.Enter;
+import java.io.*;
+import java.lang.Thread;
 
 import java.util.Map;
 
@@ -28,5 +30,10 @@ public class EnterText implements Task {
         actor.attemptsTo(Enter.theValue(data.get("latitude")).into(TXT_LAT));
         actor.attemptsTo(Enter.theValue(data.get("longitude")).into(TXT_LNG));
         actor.attemptsTo(Click.on(BTN_SEND));
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
 }

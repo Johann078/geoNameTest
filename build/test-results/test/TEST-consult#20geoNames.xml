@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="consult geoNames" tests="7" skipped="0" failures="0" errors="0" timestamp="2022-03-19T21:04:38" hostname="Apples-Mac-Johan.local" time="200.886">
+<testsuite name="consult geoNames" tests="9" skipped="0" failures="0" errors="0" timestamp="2022-03-20T03:59:26" hostname="Apples-Mac-Johan.local" time="111.025">
   <properties/>
-  <testcase name="test different consults #1" classname="consult geoNames" time="37.298"/>
-  <testcase name="test different consults #2" classname="consult geoNames" time="22.086"/>
-  <testcase name="test different consults #3" classname="consult geoNames" time="27.06"/>
-  <testcase name="test different consults #4" classname="consult geoNames" time="26.266"/>
-  <testcase name="test different consults #5" classname="consult geoNames" time="28.388"/>
-  <testcase name="test different consults #6" classname="consult geoNames" time="36.198"/>
-  <testcase name="test different consults #7" classname="consult geoNames" time="23.588"/>
+  <testcase name="test different consults #1" classname="consult geoNames" time="23.587"/>
+  <testcase name="test different consults #2" classname="consult geoNames" time="10.583"/>
+  <testcase name="test different consults #3" classname="consult geoNames" time="10.975"/>
+  <testcase name="test different consults #4" classname="consult geoNames" time="11.528"/>
+  <testcase name="test different consults #5" classname="consult geoNames" time="11.374"/>
+  <testcase name="test different consults #6" classname="consult geoNames" time="11.474"/>
+  <testcase name="test different consults #7" classname="consult geoNames" time="10.504"/>
+  <testcase name="test different consults #8" classname="consult geoNames" time="10.46"/>
+  <testcase name="test different consults #9" classname="consult geoNames" time="10.54"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[[Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///Users/johannuser/Documents/proyect/PersonalProyects/Android/android-project/cosumeapi-test/src/test/resources/features/consult.feature
+  <system-err><![CDATA[[Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///Users/johannuser/Documents/proyect/PersonalProyects/Android/cosumeapi-test/src/test/resources/features/consult.feature
 [Test worker] INFO  - 
   _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
  |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
@@ -26,7 +28,7 @@ test different consults(consult-geonames;test-different-consults)
 
 test different consults
 ----------------------------------------------------------------------
-[Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///Users/johannuser/Documents/proyect/PersonalProyects/Android/android-project/cosumeapi-test/src/test/resources/features/consult.feature
+[Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///Users/johannuser/Documents/proyect/PersonalProyects/Android/cosumeapi-test/src/test/resources/features/consult.feature
 [Test worker] INFO  - 
   _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
  |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
@@ -35,10 +37,12 @@ test different consults
 
 test different consults
 ----------------------------------------------------------------------
-[Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///Users/johannuser/Documents/proyect/PersonalProyects/Android/android-project/cosumeapi-test/src/test/resources/features/consult.feature
-[Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///Users/johannuser/Documents/proyect/PersonalProyects/Android/android-project/cosumeapi-test/src/test/resources/features/consult.feature
-[Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///Users/johannuser/Documents/proyect/PersonalProyects/Android/android-project/cosumeapi-test/src/test/resources/features/consult.feature
-[Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///Users/johannuser/Documents/proyect/PersonalProyects/Android/android-project/cosumeapi-test/src/test/resources/features/consult.feature
-[Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///Users/johannuser/Documents/proyect/PersonalProyects/Android/android-project/cosumeapi-test/src/test/resources/features/consult.feature
+[Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///Users/johannuser/Documents/proyect/PersonalProyects/Android/cosumeapi-test/src/test/resources/features/consult.feature
+[Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///Users/johannuser/Documents/proyect/PersonalProyects/Android/cosumeapi-test/src/test/resources/features/consult.feature
+[Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///Users/johannuser/Documents/proyect/PersonalProyects/Android/cosumeapi-test/src/test/resources/features/consult.feature
+[Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///Users/johannuser/Documents/proyect/PersonalProyects/Android/cosumeapi-test/src/test/resources/features/consult.feature
+[Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///Users/johannuser/Documents/proyect/PersonalProyects/Android/cosumeapi-test/src/test/resources/features/consult.feature
+[Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///Users/johannuser/Documents/proyect/PersonalProyects/Android/cosumeapi-test/src/test/resources/features/consult.feature
+[Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///Users/johannuser/Documents/proyect/PersonalProyects/Android/cosumeapi-test/src/test/resources/features/consult.feature
 ]]></system-err>
 </testsuite>
