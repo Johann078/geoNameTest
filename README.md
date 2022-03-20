@@ -1,30 +1,33 @@
-# Título del Proyecto
+# Title of the project
 
-proyecto GeoNAme Test
+GeoName Test project
 
-## Comenzando 🚀
+## Starting 🚀
 
-_url Github: https://github.com/Johann078/geoNameTest.git_
+_Github url: https://github.com/Johann078/geoNameTest.git_
 
 
-### Pre-requisitos 📋
+### Pre-requisites 📋
 
-_Java 1.8 o mas instalado,
-  ,appium server 1.22.2
-  ,gradle, Intellj_
+_Java 1.8 or more installed,
+   appium server 1.22.2
+   ,gradle, intelj_
 
-_Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
+_Ends with an example of how to get data from the system or how to use it for a small demo_
 
-## EJECUCION DE PRUEBAS ⚙️
+## Project description ⚙️
 
-este proyecto esta vinculado a un jenkins donde se ejecuta de manera local 
-las pruebas se ejecutan con 
+Project Made in JAVA with Screenplay Design Pattern with Serenity BDD
+
+## TEST RUN ⚙️
+
+this project is linked to a jenkins where it is executed locally
+tests are run with:
 
 ```
-Gradle test
+gradle-test
 ```
 
-## Autor ✒️
+## Author ✒️
 
-* **Johann Romero Vargas** - *Automatizador* - [johann078](https://github.com/Johann078)
-
+* **Johann Romero Vargas** - *Automator* - [johann078](https://github.com/Johann078)
