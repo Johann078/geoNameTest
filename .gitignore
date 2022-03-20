@@ -12,4 +12,6 @@
 .externalNativeBuild
 .idea
 .target
+build
+target
 
