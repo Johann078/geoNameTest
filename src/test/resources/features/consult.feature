@@ -19,6 +19,8 @@ Feature: consult geoNames
 
         | latitude | longitude | message                                   | errorMessage |
         | -10      | 20        | Angola                                    | False        |
+        | 4.5      | -74       | Colombia                                  | False        |
+        | 37       | -95       | United States                             | False        |
         | ?        | @         | error parsing parameter                   | True         |
         |          | 20        | missing parameter                         | True         |
         | -10      |           | missing parameter                         | True         |
